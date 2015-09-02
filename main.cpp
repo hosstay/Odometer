@@ -30,7 +30,7 @@ int main (void)
    {
 
       //prompt user
-      cout<<"Choose an option:\n";
+      cout<<"\nChoose an option:\n";
       cout<<"   1. Reset the odometer\n";
       cout<<"   2. Set fuel efficiency\n";
       cout<<"   3. Add miles driven\n";
@@ -50,7 +50,7 @@ int main (void)
       {
          od1.Reset_odometer();
          
-         cout<<"Odometer reset\n";
+         cout<<"\nOdometer reset\n\n";
 
       }
 
@@ -61,7 +61,7 @@ int main (void)
 
          od1.Set_fuelEfficiency(input);
 
-         cout<<input<<" Fuel efficiency set\n";
+         cout<<"\n Fuel efficiency set: "<<input<<" miles per gallon.\n\n";
 
       }
 
@@ -72,14 +72,14 @@ int main (void)
 
          od1.Add_milesDriven(input);
 
-         cout<<input<<" Miles added\n";
+         cout<<"\n Miles added: "<<input<<"\n\n";
 
       }
 
       //find gallons of fuel consumed
       if ( choice == 4 )
       {
-         cout<<"Fuel consumed: "<<od1.Get_gasConsumed()<<"\n";
+         cout<<"\nFuel consumed: "<<od1.Get_gasConsumed()<<" gallons.\n\n";
       }
 
    }while ( choice != 5 );
