@@ -50,7 +50,7 @@ int main (void)
       {
          od1.Reset_odometer();
          
-         cout<<"Odometer reset\nMiles driven: "<<od1.milesDriven<<"\n";
+         cout<<"Odometer reset\n";
 
       }
 
@@ -61,7 +61,7 @@ int main (void)
 
          od1.Set_fuelEfficiency(input);
 
-         cout<<"Fuel efficiency set\nFuel efficiency: "<<od1.fuelEfficiency<<"\n";
+         cout<<input<<" Fuel efficiency set\n";
 
       }
 
@@ -72,7 +72,7 @@ int main (void)
 
          od1.Add_milesDriven(input);
 
-         cout<<"Miles added\nMiles driven: "<<od1.milesDriven<<"\n";
+         cout<<input<<" Miles added\n";
 
       }
 
