@@ -6,7 +6,7 @@
    This program implements the Odometer class. It contains the fuel and
    mileage entered by the user and is able to calculate miles driven
    and fuel efficiency, as well as allow the user to get the gas
-   consumed since the odometer was last reset.
+   consumed since the odometer was last reset. 
     
 */
 
