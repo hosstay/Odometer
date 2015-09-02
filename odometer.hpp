@@ -1,6 +1,6 @@
 /***************************************************************************** 
    Taylor Hoss
-   X432Z869
+   X432Z869 
    Program #2
 
    This program implements the Odometer class. It contains the fuel and
