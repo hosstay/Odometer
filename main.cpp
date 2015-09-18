@@ -34,7 +34,7 @@ int main (void)
       cout<<"   1. Reset the odometer\n";
       cout<<"   2. Set fuel efficiency\n";
       cout<<"   3. Add miles driven\n";
-      cout<<"   4. Find gallons of food consumed\n";   
+      cout<<"   4. Find gallons of fuel consumed\n";   
       cout<<"   5. Quit\n";
       
       //get choice (re-prompt if non-valid response)

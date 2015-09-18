@@ -20,7 +20,7 @@ void Odometer::Set_fuelEfficiency(double fe)
 
 void Odometer::Add_milesDriven(double md)
 {
-   milesDriven = md;
+   milesDriven += md;
 }
 
 //accessor functions
